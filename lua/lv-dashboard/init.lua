@@ -43,11 +43,12 @@ vim.g.dashboard_custom_section = {
     c = {description = {'  Load Last Session  '}, command = 'SessionLoad'},
     d = {description = {'  Find Word          '}, command = 'Telescope live_grep'},
     e = {description = {'  Settings           '}, command = ':e '..CONFIG_PATH..'/lv-settings.lua'},
-    f = {description = {'  Projects           '}, command = 'Telescope project'}
-    -- e = {description = {'  Marks              '}, command = 'Telescope marks'}
+    f = {description = {'  Projects           '}, command = 'Telescope project'},
+    --g = {description = {'  New File           '}, new_file = 'SPC c n'},
+    h = {description = {'  Marks              '}, command = 'Telescope marks'},
 }
 
--- file_browser = {description = {' File Browser'}, command = 'Telescope find_files'},
+
 
 -- vim.g.dashboard_custom_shortcut = {
 --     a = 'f',
